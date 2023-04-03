@@ -1,0 +1,38 @@
+#nav-bar a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    padding: 9px;
+}
+#nav-bar{
+    padding:7px;
+    background: rgb(79, 77, 77);  
+    display: flex;
+    justify-content: center;   
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+}
+#content{
+    font-size: 16px;
+    color: white;
+}
+body{
+    background-color: rgb(70, 66, 66);
+}
+#html-head{
+    color: white;
+}
+.hero{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+@media only screen and (max-width:800px){
+    .hero img{
+        height:0;
+        width:0;
+        }
+}
